@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Metric/Imperial Unit Conversion</h1> 
+        <input class="input-el" type="text" placeholder="00">  
+        <button class="convert-btn">Convert</button> 
+    </header>
+    <main>
+        <section>
+            <p class="unit-txt">Length (Meter/Feet)</p>
+            <p class="result length-txt"></p>
+        </section>
+        <section>
+            <p class="unit-txt">Volume (Liters/Gallons)</p>
+            <p class="result volume-txt"></p>
+        </section>
+        <section class="last-section">
+            <p class="unit-txt">Mass (Kilograms/Pounds)</p>
+            <p class="result weight-txt"></p>
+        </section>
+    </main>
+<script src="/JS/index.js"></script>
 </body>
 </html>
